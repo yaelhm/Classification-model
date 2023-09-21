@@ -1,6 +1,8 @@
 # Handling-missing-MRI-data-in-brain-tumors-classification-tasks
 
 This script
+
+![Alt text](C:\Users\yael\Desktop\P.hd\Articles\Classification with Gans\JMRI\R2\Figure1_R2.tif)
 # Overview
 This code is built on fast.ai version 1.6. If you have version 2, please downgrade.
 
