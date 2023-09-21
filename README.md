@@ -34,11 +34,14 @@ Three folders with the Training images, Validation images and Test images (nifti
 <code>FLAIR2T2_pix2pix.py</code>: Generate FLAIR from T2WI
 
 **For Classification model**
-<code>Classification_5fold_MAin.py</code>: The 5fold classification model on 4 channels
+
+<code>Classification_5fold_Main.py</code>: The 5fold classification model on 4 channels
 
 <code>Classification_Inference.py</code>: Predict on test set
 
 ## Usage
+
+1. Preprocceing (1.a)
 
 # Citation
 Y.H. Moshe et al., "Handling missing MRI data in brain tumors classification tasks: usage of synthetic images vs. duplicate images and black images", in JMRI (under review) 
