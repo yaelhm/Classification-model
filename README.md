@@ -1,9 +1,10 @@
-# Classification-model
+#BreadcrumbsHandling-missing-MRI-data-in-brain-tumors-classification-tasks
+
 This script
 # Overview
 This code is built on fast.ai version 1.6. If you have version 2, please downgrade.
 
-# Data organization
+## Data organization
 The dataset should include:
 
 [Train] folder with the training images
@@ -14,10 +15,14 @@ folder with the validation images and
 [Test] folder with the test images and csv/xlsx file with data names and labels
 
 
-# Included files
+## Included files
+
+## Usage
 
 # Citation
+Y.H. Moshe et al.,"Handling missing MRI data in brain tumors classification tasks: usage of synthetic images vs. duplicate images and black images",in JMRI (under review) 
+
 
 # Authors
-
+Yael Hodaya Moshe, Yuval Buchsweiler, Mina Teicher, Moran Artzi
 
