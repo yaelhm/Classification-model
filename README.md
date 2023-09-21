@@ -11,16 +11,15 @@ The dataset should include:
 
 **For pix2pix GAN models:**
 
-[Train] folder with the training images
+Three folders with the Training images, Validation images and Test images (nifti images) 
 
-folder with the validation images and 
+**For Classification models:**
 
- 5 csv/xlsx files with data names and labels and attribution(train-0,val-1):
+[Train] folder with the training and validation images and 5 csv/xlsx files with data names ,labels and attribution (train/val).
  
- *TRAIN_FOLD1.csv, TRAIN_FOLD2.csv, TRAIN_FOLD3.csv, TRAIN_FOLD4.csv, TRAIN_FOLD5.csv
-
 [Test] folder with the test images and csv/xlsx file with data names and labels 
 
+*the images consist of 4 channels: T1WI, T1WIC, T2 and FLAIR.
 
 ## Included files
 
