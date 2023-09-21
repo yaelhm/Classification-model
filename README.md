@@ -21,15 +21,22 @@ Three folders with the Training images, Validation images and Test images (nifti
  
 [Test] folder with the test images and csv/xlsx file with data names and labels 
 
-*the images consist of 4 channels: T1WI, T1WIC, T2 and FLAIR.
+*the images consist of 4 channels: T1WI, T1WI+C, T2 and FLAIR.
 
 ## Included files
 
 **For pix2pix GAN models**
 
-<code>T1C2T1_pix2pix.py</code>
+<code>T1C2T1_pix2pix.py</code>: Generate T1WI from T1WI+C
+
+<code>T2C2FLAIR_pix2pix.py</code>: Generate T2WI from FLAIR
+
+<code>FLAIR2T2_pix2pix.py</code>: Generate FLAIR from T2WI
 
 **For Classification model**
+<code>Classification_5fold_MAin.py</code>: The 5fold classification model on 4 channels
+
+<code>Classification_Inference.py</code>: Predict on test set
 
 ## Usage
 
