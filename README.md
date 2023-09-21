@@ -41,16 +41,14 @@ Three folders with the Training images, Validation images and Test images (nifti
 
 ## Usage
 
-1. Preprocessing: Brain extraction,realignment, resizing  and intensities normalization(a)
+1. Preprocessing: Brain extraction,realignment, resizing  and intensities normalization.
 
-2. Syntethic image generation: run the 3 pix2pix GAN model <code>T1C2T1_pix2pix.py</code>, <code>T2C2FLAIR_pix2pix.py</code> and <code>FLAIR2T2_pix2pix.py</code>. (a)
-
-<code>FLAIR2T2_pix2pix.py</code>:(b)
+2. Syntethic image generation: run the 3 pix2pix GAN model <code>T1C2T1_pix2pix.py</code>, <code>T2C2FLAIR_pix2pix.py</code> and <code>FLAIR2T2_pix2pix.py</code>.  
 
 3. Lesion area segmentation: N4 bias field correction, run 3D Unet automated lesion segmentation, crop around the center lesion area,
-extract 5 2D images and resizing. (c)
+extract 5 2D images and resizing.
 
-4. Tumor classification: run <code>Classification_5fold_Main.py</code> (d)
+4. Tumor classification: run <code>Classification_5fold_Main.py</code>.
 
 5. Inference: on the test set, do step 1 and 3. than, do  infrence for 3 pix2pix GAN model (in the code) and run <code>Classification_Inference.py</code>
 
