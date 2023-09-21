@@ -1,4 +1,4 @@
-#BreadcrumbsHandling-missing-MRI-data-in-brain-tumors-classification-tasks
+# Handling-missing-MRI-data-in-brain-tumors-classification-tasks
 
 This script
 # Overview
@@ -20,7 +20,7 @@ folder with the validation images and
 ## Usage
 
 # Citation
-Y.H. Moshe et al.,"Handling missing MRI data in brain tumors classification tasks: usage of synthetic images vs. duplicate images and black images",in JMRI (under review) 
+Y.H. Moshe et al., "Handling missing MRI data in brain tumors classification tasks: usage of synthetic images vs. duplicate images and black images", in JMRI (under review) 
 
 
 # Authors
