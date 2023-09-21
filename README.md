@@ -50,7 +50,7 @@ extract 5 2D images and resizing.
 
 4. Tumor classification: run <code>Classification_5fold_Main.py</code>.
 
-5. Inference: on the test set, do step 1 and 3. than, do  infrence for 3 pix2pix GAN model (in the code) and run <code>Classification_Inference.py</code>
+5. Inference: on the test set, do step 1 and 3. than, do  infrence for 3 pix2pix GAN models (in the code) and run <code>Classification_Inference.py</code>
 
 # Citation
 Y.H. Moshe et al., "Handling missing MRI data in brain tumors classification tasks: usage of synthetic images vs. duplicate images and black images", in JMRI (under review) 
