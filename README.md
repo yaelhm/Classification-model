@@ -1,6 +1,7 @@
 # Handling-missing-MRI-data-in-brain-tumors-classification-tasks
 
 The contribution of this scripts are using pix2pix-GAN generated images in cases of missing data in a DL classification task.
+
 ![Model](Figure.png)
 
 Contact info: yaelher@gmail.com
