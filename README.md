@@ -6,7 +6,7 @@ The contribution of this scripts are using pix2pix-GAN generated images in cases
 
 Contact info: yaelher@gmail.com
 # Overview
-This code is built on fast.ai version 1.6. If you have version 2, please downgrade.
+This code is built on fast.ai version 1.6. If you have version 2
 
 ## Data organization
 The dataset should include:
@@ -21,11 +21,13 @@ Three folders with the Training images, Validation images and Test images (nifti
  
 [Test] folder with the test images and csv/xlsx file with data names and labels 
 
-*the images consist of 4 channels: T1WI, T1WI+C, T2 and FLAIR.
+* The images consist of 4 channels (MRI contrasts): T1WI, T1WI+C, T2 and FLAIR.
 
 ## Included files
 
-**For pix2pix GAN models**
+**pix2pix GAN models
+## This code is based on code from the XXX repository by XX.
+## Original repository: https://github.com/XXX
 
 <code>T1C2T1_pix2pix.py</code>: Generate T1WI from T1WI+C
 
@@ -33,7 +35,7 @@ Three folders with the Training images, Validation images and Test images (nifti
 
 <code>FLAIR2T2_pix2pix.py</code>: Generate FLAIR from T2WI
 
-**For Classification model**
+**Classification model**
 
 <code>Classification_5fold_Main.py</code>: The 5fold classification model on 4 channels
 
