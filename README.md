@@ -11,11 +11,11 @@ This code is built on fast.ai version 1.6. If you have version 2, please downgra
 ## Data organization
 The dataset should include:
 
-**For pix2pix GAN models:**
+**For pix2pix GAN models**
 
 Three folders with the Training images, Validation images and Test images (nifti images) 
 
-**For Classification models:**
+**For Classification model**
 
 [Train] folder with the training and validation images and 5 csv/xlsx files with data names ,labels and attribution (train/val).
  
@@ -24,6 +24,12 @@ Three folders with the Training images, Validation images and Test images (nifti
 *the images consist of 4 channels: T1WI, T1WIC, T2 and FLAIR.
 
 ## Included files
+
+**For pix2pix GAN models**
+
+<code>T1C2T1_pix2pix.py</code>
+
+**For Classification model**
 
 ## Usage
 
