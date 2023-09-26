@@ -26,8 +26,8 @@ Three folders with the Training images, Validation images and Test images (nifti
 ## Included files
 
 **pix2pix GAN models
-# This code is based on code from the pix2pixRAD repository by XX.
-# Original repository: https://github.com/giemmecci/pix2pixRAD
+### This code is based on code from the pix2pixRAD repository by XX.
+### Original repository: https://github.com/giemmecci/pix2pixRAD
 
 <code>T1C2T1_pix2pix.py</code>: Generate T1WI from T1WI+C
 
