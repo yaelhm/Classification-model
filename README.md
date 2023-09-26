@@ -49,7 +49,7 @@ Three folders with the Training images, Validation images and Test images (nifti
 
 3. 2D Tumor classification: run <code>Classification_5fold_Main.py</code>.
 
-4. Inference: run infrence pix2pix GAN model (#2) and run <code>Classification_Inference.py</code>
+4. Inference: run infrence pix2pix GAN model (#3) and run <code>Classification_Inference.py</code>
 
 # Citation
 Y.H. Moshe et al., "Handling missing MRI data in brain tumors classification tasks: usage of synthetic images vs. duplicate images and black images", in JMRI (under review) 
